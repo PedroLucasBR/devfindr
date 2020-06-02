@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    background: radial-gradient(circle, transparent 20%, #0562A7 20%, #0562A7 80%, transparent 80%, transparent),
+    radial-gradient(circle, transparent 20%, #0562A7 20%, #0562A7 80%, transparent 80%, transparent) 50px 50px,
+    linear-gradient(#136cad 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, #136cad 8px, transparent 8px) -4px 0;
+    background-color: #0562A7;
+    background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+    -webkit-font-smoothing: antialiazed;
+}
+
+body, input, button {
+    font-family: 'Roboto', sans-serif;
+}
